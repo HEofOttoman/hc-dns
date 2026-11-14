@@ -77,3 +77,10 @@ rsvp: # U08PUHSMW4V
 - ttl: 600
   type: A
   value: 192.9.226.154
+
+wiki:
+- ttl: 600
+  type: CNAME
+  value: giants-deep.infra.thirtyseventh.xyz.
+
+
