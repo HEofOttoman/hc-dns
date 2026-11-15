@@ -1559,11 +1559,8 @@ data: # leo@hackclub.com
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 daydream:
-- octodns:
-    cloudflare:
-      proxied: true
-  type: A
-  value: 5.161.100.52   # a.selfhosted.hackclub.com
+- type: A
+  value: 76.76.21.21
 - type: TXT
   values:
   - google-site-verification=Bu5WZO3irOCbcJhWCTUrBN_JJfbuGNeEAp4j_itf6J8
@@ -1702,11 +1699,8 @@ doppel: # jolly@hackclub.com U08CJCZ2Z9S & katiesue@hackclub.com U06SQJ508LF
       proxied: true
   value: a.ingress.tier2.infra.hackclub.com.
 downscale: # augie@hackclub.com
-  octodns:
-    cloudflare:
-      proxied: true
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: eeeb5ca9d6492736.vercel-dns-013.com.
 draw-dino: # mattsoh@hackclub.com U07DPHQCCCS
 - octodns:
     cloudflare:
@@ -3726,6 +3720,12 @@ mipmap: # brendan@hackclub.com
 mob-games:
   type: CNAME
   value: d906b8f58a045a63e82061d953776462.ipv4.tcpshield.com.
+molten: # emma@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 moonbeam:
   type: CNAME
   value: 411d1103d9e82130.vercel-dns-016.com.
@@ -5206,6 +5206,9 @@ solvable: # jared@hackclub.com / lynn@hackclub.com
 som-mail-system:
   type: CNAME
   value: b9dd0ffc9d4870b8.vercel-dns-016.com.
+spacebar: # kaylee@hackclub.com
+  type: CNAME
+  value: spacebar-c8qvs2rl6.hackclub.dev
 spaces: # wally@hackclub.com @wbs
   type: CNAME
   value: cc0c5fc6bb865d87.vercel-dns-013.com.
