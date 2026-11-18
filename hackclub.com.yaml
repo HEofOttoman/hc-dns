@@ -2239,6 +2239,12 @@ fraud: # echo@hackclub.com U080A3QP42C
       proxied: true
   type: CNAME
   value: b.selfhosted.hackclub.com.
+lapse.fraud: # anson@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 fraudy: # sebh@hackclub.com
 - octodns:
     cloudflare:
@@ -2291,6 +2297,12 @@ g: # kartikey@hackclub.com
 gadget: # acon / U04KEK4TS72
 - type: CNAME
   value: cname.vercel-dns.com.
+galway: # johnny@hackclub.com U0AA446NTJA
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 gamblorpheus: # amber / U054VC2KM9P
   type: CNAME
   octodns:
@@ -2677,9 +2689,19 @@ hardware: # sophia@hackclub.com
 harpa: # jolly@hackclub.com
 - type: CNAME
   value: a2c3b83ae2577730.vercel-dns-013.com.
-harvest:
-  type: CNAME
-  value: aaeba5893cef3800.vercel-dns-016.com.
+harvest: # barnav@hackclub U08RVF1BAN4
+- octodns:
+    cloudflare:
+      proxied: true
+  type: A
+  value: 192.0.2.1
+- type: URLFWD
+  value:
+    path: /*
+    target: https://itch.io/jam/harvest
+    code: 302
+    masking: 0
+    query: 0
 haunted:
   type: CNAME
   value: 8f79124013efc00d.vercel-dns-016.com.
